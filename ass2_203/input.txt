@@ -1,0 +1,46 @@
+12 7 5
+Add_Room 2220 CityView Standard 2 350 1-10-2019 30-12-2019
+Add_Room 2050 SeaView Royal 2 1020 1-12-2019 30-5-2020
+Add_Room 1020 CityView Standard 2 300 1-10-2019 30-12-2019
+Add_Room 1200 CityView Suite 4 750 1-10-2019 30-5-2020
+Add_Room 2004 SeaView Standard 2 330 5-10-2019 10-11-2019
+Add_Room 2005 SeaView Royal 2 1020 5-10-2019 30-12-2019
+Add_Room 1023 CityView Suite 3 500 25-10-2019 2-11-2019
+Add_Room 1022 SeaView Suite 4 850 15-10-2019 15-11-2019
+Add_Room 1100 CityView Standard 2 350 1-11-2019 5-11-2019
+Add_Room 2120 SeaView Standard 3 400 3-12-2019 30-1-2019
+Add_Room 2020 CityView Royal 2 990 15-10-2019 1-12-2019
+Add_Room 2011 SeaView Suite 4 870 1-10-2019 30-1-2020
+Add_Room 2000 SeaView Suite 4 870 1-10-2019 30-1-2020
+
+Add_Guest Amani_Jamal 25 F 053547099
+Add_Guest Adnan_Ahmad 34 M 055555990
+Add_Guest Amal_Khaled 33 F 053555099
+Add_Guest Kamel_Alamri 43 M 056655990
+Add_Guest Kareem_Ali 25 M  053533099
+Add_Guest Tamer_Hosny 45 M 056655990
+Add_Guest Lamia_Waleed 25 F 053547099
+Add_Guest Alanoud_Aldosari 44 5 055985990
+
+Make_Reservation 2220 2 Adnan_Ahmad 12-9-2019 15-10-2019
+Make_Reservation 2050 4 Kamel_Alamri 12-10-2019 15-10-2019
+Make_Reservation 1000 3 Kamel_Alamri 12-10-2019 15-10-2019
+Make_Reservation 2120 2 Amal_Alrasi 9-10-2019 15-11-2019
+Make_Reservation 2005 2 Tamer_Hosny 9-10-2019 15-11-2019
+Make_Reservation 2011 4 Lamia_Waleed 12-10-2019 20-10-2019
+Make_Reservation 2050 2 Amani_Jamal 1-12-2019 5-12-2019
+Make_Reservation 2050 2 Kareem_Ali 5-12-2019 30-12-2019
+Make_Reservation 2050 2 Amani_Jamal 1-12-2019 5-12-2019
+Make_Reservation 2050 2 Kareem_Ali 30-12-2019 5-1-2019
+Make_Reservation 2050 2 Kareem_Ali 5-1-2019 8-1-2019
+
+Print_Reservation Re030
+Print_Reservation Re003
+
+Search_Print CityView Standard
+Search_Print SeaView Royal
+
+
+Room_Status 2050
+Room_Status 2011
+Quit
